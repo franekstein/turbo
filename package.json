@@ -5,26 +5,36 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "turbo run typecheck",
     "check-dependencies": "sherif",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish",
-    "preview-storybook": "turbo run preview-storybook"
+    "bump-ui": "pnpm dlx shadcn@canary add --all --overwrite -c packages/ui",
+    "clean": "git clean -xdf node_modules",
+    "ai:analyze": "pnpm run typecheck && pnpm run lint && echo 'AI Analysis Complete'",
+    "debug:next": "NODE_OPTIONS='--inspect' pnpm --filter=web dev",
+    "debug:storybook": "NODE_OPTIONS='--inspect' pnpm --filter=storybook dev",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.8",
-    "@workspace/eslint-config": "workspace:*",
+    "@biomejs/biome": "^2.4.0",
     "@workspace/typescript-config": "workspace:*",
-    "prettier": "^3.8.1",
+    "lefthook": "^2.1.1",
+    "lint-staged": "^16.2.7",
     "sherif": "^1.10.0",
     "turbo": "^2.8.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "ultracite": "^7.2.3"
   },
   "packageManager": "pnpm@10.4.1",
   "engines": {
     "node": ">=20"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": [
+      "pnpm dlx ultracite fix"
+    ]
   }
 }

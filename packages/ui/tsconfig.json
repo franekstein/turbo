@@ -1,12 +1,13 @@
 {
-	"extends": "@workspace/typescript-config/react-library.json",
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@workspace/*": ["../*"],
-			"@workspace/ui/*": ["./src/*"]
-		}
-	},
-	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+  "extends": "@workspace/typescript-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/*": ["../*"],
+      "@workspace/ui/*": ["./src/*"]
+    },
+    "strictNullChecks": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }

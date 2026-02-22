@@ -1,20 +1,19 @@
-import * as React from "react";
-
-import { cn } from "@workspace/ui/lib/utils";
-import { Button } from "@workspace/ui/components/button";
 import {
   RiArrowLeftSLine,
   RiArrowRightSLine,
   RiMoreLine,
 } from "@remixicon/react";
+import { Button } from "@workspace/ui/components/button";
+import { cn } from "@workspace/ui/lib/utils";
+import type * as React from "react";
 
 function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
   return (
     <nav
-      role="navigation"
       aria-label="pagination"
-      data-slot="pagination"
       className={cn("mx-auto flex w-full justify-center", className)}
+      data-slot="pagination"
+      role="navigation"
       {...props}
     />
   );
@@ -26,8 +25,8 @@ function PaginationContent({
 }: React.ComponentProps<"ul">) {
   return (
     <ul
+      className={cn("flex items-center gap-0.5", className)}
       data-slot="pagination-content"
-      className={cn("gap-0.5 flex items-center", className)}
       {...props}
     />
   );
@@ -50,18 +49,18 @@ function PaginationLink({
 }: PaginationLinkProps) {
   return (
     <Button
-      variant={isActive ? "outline" : "ghost"}
-      size={size}
       className={cn(className)}
       nativeButton={false}
       render={
         <a
           aria-current={isActive ? "page" : undefined}
-          data-slot="pagination-link"
           data-active={isActive}
+          data-slot="pagination-link"
           {...props}
         />
       }
+      size={size}
+      variant={isActive ? "outline" : "ghost"}
     />
   );
 }
@@ -74,8 +73,8 @@ function PaginationPrevious({
   return (
     <PaginationLink
       aria-label="Go to previous page"
-      size="default"
       className={cn("pl-1.5!", className)}
+      size="default"
       {...props}
     >
       <RiArrowLeftSLine data-icon="inline-start" />
@@ -92,8 +91,8 @@ function PaginationNext({
   return (
     <PaginationLink
       aria-label="Go to next page"
-      size="default"
       className={cn("pr-1.5!", className)}
+      size="default"
       {...props}
     >
       <span className="hidden sm:block">{text}</span>
@@ -109,11 +108,11 @@ function PaginationEllipsis({
   return (
     <span
       aria-hidden
-      data-slot="pagination-ellipsis"
       className={cn(
-        "size-8 [&_svg:not([class*='size-'])]:size-4 flex items-center justify-center",
-        className,
+        "flex size-8 items-center justify-center [&_svg:not([class*='size-'])]:size-4",
+        className
       )}
+      data-slot="pagination-ellipsis"
       {...props}
     >
       <RiMoreLine />

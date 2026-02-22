@@ -6,28 +6,28 @@ import type { StorybookConfig } from "@storybook/react-vite";
  * It is needed in projects that use Yarn PnP or are set up within a monorepo.
  */
 const getAbsolutePath = (value: string): string => {
-	return dirname(require.resolve(join(value, "package.json")));
+  return dirname(require.resolve(join(value, "package.json")));
 };
 
 const config: StorybookConfig = {
-	stories: [
-		"../stories/**/*.mdx",
-		"../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-	],
+  stories: [
+    "../stories/**/*.mdx",
+    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+  ],
 
-	addons: [
-		getAbsolutePath("@chromatic-com/storybook"),
-		getAbsolutePath("@storybook/addon-docs"),
-		getAbsolutePath("@storybook/addon-a11y"),
-		getAbsolutePath("@storybook/addon-vitest"),
-	],
+  addons: [
+    getAbsolutePath("@chromatic-com/storybook"),
+    getAbsolutePath("@storybook/addon-docs"),
+    getAbsolutePath("@storybook/addon-a11y"),
+    getAbsolutePath("@storybook/addon-vitest"),
+  ],
 
-	framework: {
-		name: getAbsolutePath("@storybook/react-vite"),
-		options: {},
-	},
+  framework: {
+    name: getAbsolutePath("@storybook/react-vite"),
+    options: {},
+  },
 
-	staticDirs: ["../public"],
+  staticDirs: ["../public"],
 };
 
 export default config;

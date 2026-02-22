@@ -1,16 +1,16 @@
-import * as React from "react";
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
+import { RiArrowRightSLine, RiMoreLine } from "@remixicon/react";
 
 import { cn } from "@workspace/ui/lib/utils";
-import { RiArrowRightSLine, RiMoreLine } from "@remixicon/react";
+import type * as React from "react";
 
 function Breadcrumb({ className, ...props }: React.ComponentProps<"nav">) {
   return (
     <nav
       aria-label="breadcrumb"
-      data-slot="breadcrumb"
       className={cn(className)}
+      data-slot="breadcrumb"
       {...props}
     />
   );
@@ -19,11 +19,11 @@ function Breadcrumb({ className, ...props }: React.ComponentProps<"nav">) {
 function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
   return (
     <ol
-      data-slot="breadcrumb-list"
       className={cn(
-        "text-muted-foreground gap-1.5 text-sm flex flex-wrap items-center wrap-break-word",
-        className,
+        "wrap-break-word flex flex-wrap items-center gap-1.5 text-muted-foreground text-sm",
+        className
       )}
+      data-slot="breadcrumb-list"
       {...props}
     />
   );
@@ -32,8 +32,8 @@ function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
 function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
   return (
     <li
+      className={cn("inline-flex items-center gap-1", className)}
       data-slot="breadcrumb-item"
-      className={cn("gap-1 inline-flex items-center", className)}
       {...props}
     />
   );
@@ -48,9 +48,9 @@ function BreadcrumbLink({
     defaultTagName: "a",
     props: mergeProps<"a">(
       {
-        className: cn("hover:text-foreground transition-colors", className),
+        className: cn("transition-colors hover:text-foreground", className),
       },
-      props,
+      props
     ),
     render,
     state: {
@@ -62,11 +62,11 @@ function BreadcrumbLink({
 function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
   return (
     <span
+      aria-current="page"
+      aria-disabled="true"
+      className={cn("font-normal text-foreground", className)}
       data-slot="breadcrumb-page"
       role="link"
-      aria-disabled="true"
-      aria-current="page"
-      className={cn("text-foreground font-normal", className)}
       {...props}
     />
   );
@@ -79,10 +79,10 @@ function BreadcrumbSeparator({
 }: React.ComponentProps<"li">) {
   return (
     <li
-      data-slot="breadcrumb-separator"
-      role="presentation"
       aria-hidden="true"
       className={cn("[&>svg]:size-3.5", className)}
+      data-slot="breadcrumb-separator"
+      role="presentation"
       {...props}
     >
       {children ?? <RiArrowRightSLine />}
@@ -96,13 +96,13 @@ function BreadcrumbEllipsis({
 }: React.ComponentProps<"span">) {
   return (
     <span
-      data-slot="breadcrumb-ellipsis"
-      role="presentation"
       aria-hidden="true"
       className={cn(
-        "size-5 [&>svg]:size-4 flex items-center justify-center",
-        className,
+        "flex size-5 items-center justify-center [&>svg]:size-4",
+        className
       )}
+      data-slot="breadcrumb-ellipsis"
+      role="presentation"
       {...props}
     >
       <RiMoreLine />
