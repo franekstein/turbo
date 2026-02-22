@@ -38,13 +38,13 @@
     "@workspace/typescript-config": "workspace:*",
     "eslint": "^9.39.3",
     "tailwindcss": "^4.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "5.9.3"
   },
-	"exports": {
-		"./styles/globals.css": "./src/styles/globals.css",
-		"./postcss.config": "./postcss.config.mjs",
-		"./lib/*": "./src/lib/*.ts",
-		"./components/*": "./src/components/*.tsx",
-		"./hooks/*": "./src/hooks/*.ts"
-	}
+  "exports": {
+    "./styles/globals.css": "./src/styles/globals.css",
+    "./postcss.config": "./postcss.config.mjs",
+    "./lib/*": "./src/lib/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./hooks/*": "./src/hooks/*.ts"
+  }
 }
