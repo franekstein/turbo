@@ -26,13 +26,13 @@
     "typecheck": {
       "dependsOn": ["^typecheck"]
     },
-    "//#lint": {},
-    "//#format": {},
     "//#bump-deps": {},
     "//#bump-ui": {},
     "//#check-dependencies": {},
     "//#check": {},
-    "//#fix": {},
+    "//#fix": {
+      "cache": false
+    },
     "//#prepare": {},
     "//#clean": {
       "cache": false

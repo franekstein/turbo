@@ -5,8 +5,6 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "biome check .",
-    "format": "biome check --write .",
     "typecheck": "turbo run typecheck",
     "check-dependencies": "sherif",
     "bump-ui": "pnpm dlx shadcn@canary add --all --overwrite -c packages/ui",

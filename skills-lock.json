@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "skills": {
+    "biome-configuration": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "58a3a35edee3b92e4287fb1061d39de4bcace4fb3f9539fb0252463a77b6eed2"
+    },
+    "biome-formatting": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "4a1c377ec4f8b4819225a692616d4464a44d36917511cc4b64ec1374bf6c57f2"
+    },
+    "biome-linting": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "89f047eadd99db1b223c38721cd680cb0c2263830d7be8c23fedf28f7fce7958"
+    },
+    "clerk": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "fa60121c8ac5217de62cc523dec49fcd561becd8cc07c66b0122fce29e30b66d"
+    },
+    "clerk-custom-ui": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "563c03fc04c3a13e0ba01b514081e08a4d32c040d61ed4f77bf20176bee36636"
+    },
+    "clerk-nextjs-patterns": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "873e0bfd8ca58d2dcbf0e2af7cb69c489f6e37ff64f0340b83087a77406fb9fd"
+    },
+    "clerk-setup": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "0c28864ddbc5c13376b9725f74c8ff02dd4dc139bffc2ff2f961ed02a54ad858"
+    },
+    "clerk-testing": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "c85c9f9a6067b60b50954317a6a7fa03f052e5cb01032f988fb5e1f62876bcfb"
+    },
+    "clerk-webhooks": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "39233b7056673b41322efa9d83d8d7c50c6385f318e1ec2670b0495a67432291"
+    },
+    "code-connect-components": {
+      "source": "figma/mcp-server-guide",
+      "sourceType": "github",
+      "computedHash": "641f8c69fd0238dd615bfedc1da85b173bd9ce4fec351f7d58e7f4f28502f005"
+    },
+    "create-design-system-rules": {
+      "source": "figma/mcp-server-guide",
+      "sourceType": "github",
+      "computedHash": "5d8c5cf22964b0c1753e593150dce6339b70fb885d14d225f6e821de0bb2f95c"
+    },
+    "enhance-prompt": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "computedHash": "28c47bcbc0e8d81f48fbbbe41d227efe4018a32c5d4674b0d052a70d215072d3"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "25872a21881a950edc3db1f3329664d60405d539660ce05b3265db2de06a7dfd"
+    },
+    "implement-design": {
+      "source": "figma/mcp-server-guide",
+      "sourceType": "github",
+      "computedHash": "860395578e47567ff98d2e36e965c087921d2d21cad6a18f19bdde5625013e0a"
+    },
+    "next-best-practices": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "c31ddd68ba5798a79a516c619b1e1fc4408cc4876ad600fefa4f5add4425719d"
+    },
+    "next-cache-components": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "844401be868754beba2e7dc2c66abbe08b740eeefdec69c630ff6cbd81cc4c62"
+    },
+    "next-upgrade": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "082ce8a4aaad096baa8e38f90a4221b0ae0015a70649e4e6c647cc5da4e59dcd"
+    },
+    "storybook-args-controls": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "94daa6b5ae681620162fca6804a6104e41d59f073765c030357c52e1292f0d87"
+    },
+    "storybook-component-documentation": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "3bb8d6fc62be3dd7d71196985333caf5ed0a61f225bfc2389b9df793530be1b3"
+    },
+    "storybook-configuration": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "c0f43c05823b8739917d3ada3acc353da4baa4186357defc877b4a1d20519ebb"
+    },
+    "storybook-play-functions": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "2f05acd65738ce830fdbee5cd336625ecac53b6ff01fa53e37757cf5a4b8ce24"
+    },
+    "storybook-story-writing": {
+      "source": "thebushidocollective/han",
+      "sourceType": "github",
+      "computedHash": "8f9e1241e22e0dc92c8c8d64687b73c1d895f51fb6073c7987e2a2a1bb850053"
+    },
+    "turborepo": {
+      "source": "vercel/turborepo",
+      "sourceType": "github",
+      "computedHash": "a28e7480c69fceb5ed1bede35d8d2f80335c31166f3ffc3cbce04163deb3b916"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "10eb4ec94577b79ae98c63ce3e7f35f8a6a06436a4011bff083b397de6960eeb"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "61f8c307aa8ce0c4c52da8886d42e344dab83f76f9b5360cf8923b25fb1d67bb"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "d8e7d3afe37dcc8a97b99ffb5afdb4d0919ae0092ea8b68f44eb201f035e33ac"
+    }
+  }
+}
