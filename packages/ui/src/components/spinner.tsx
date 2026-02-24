@@ -1,10 +1,11 @@
 import { RiLoaderLine } from "@remixicon/react";
 import { cn } from "@workspace/ui/lib/utils";
 
-function Spinner({
-  className,
-  ...props
-}: Omit<React.ComponentPropsWithoutRef<typeof RiLoaderLine>, "children">) {
+type SpinnerProps = {
+  className?: string;
+} & Omit<React.ComponentPropsWithoutRef<typeof RiLoaderLine>, "className" | "children">;
+
+function Spinner({ className, ...props }: SpinnerProps) {
   return (
     <RiLoaderLine
       aria-label="Loading"
