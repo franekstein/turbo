@@ -9,7 +9,7 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "@workspace/ui/components/command";
+} from "@workspace/ui/components/ui/command";
 
 const meta = {
   title: "ui/Command",

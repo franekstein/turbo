@@ -14,7 +14,7 @@ import {
   SidebarProvider,
   SidebarRail,
   SidebarTrigger,
-} from "@workspace/ui/components/sidebar";
+} from "@workspace/ui/components/ui/sidebar";
 
 const meta = {
   title: "ui/Sidebar",

@@ -7,7 +7,7 @@ import {
   MenubarSeparator,
   MenubarShortcut,
   MenubarTrigger,
-} from "@workspace/ui/components/menubar";
+} from "@workspace/ui/components/ui/menubar";
 
 const meta = {
   title: "ui/Menubar",

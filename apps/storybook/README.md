@@ -54,7 +54,7 @@ This project uses components from shadcn/ui, which are built using Radix UI and 
 pnpm dlx shadcn@latest add button -c packages/ui
 ```
 
-2. The components will be added to your `packages/ui/components` directory.
+2. The components will be added to your `packages/ui/components/ui` directory.
 
 3. Create stories for these components in the `stories` directory.
 

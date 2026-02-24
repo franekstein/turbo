@@ -5,8 +5,8 @@ import {
   InputGroupAddon,
   InputGroupButton,
   InputGroupInput,
-} from "@workspace/ui/components/input-group";
-import { Kbd } from "@workspace/ui/components/kbd";
+} from "@workspace/ui/components/ui/input-group";
+import { Kbd } from "@workspace/ui/components/ui/kbd";
 
 const meta = {
   title: "ui/InputGroup",

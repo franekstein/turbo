@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Checkbox } from "@workspace/ui/components/checkbox";
+import { Checkbox } from "@workspace/ui/components/ui/checkbox";
 import {
   Field,
   FieldContent,
@@ -8,8 +8,8 @@ import {
   FieldGroup,
   FieldLabel,
   FieldTitle,
-} from "@workspace/ui/components/field";
-import { Input } from "@workspace/ui/components/input";
+} from "@workspace/ui/components/ui/field";
+import { Input } from "@workspace/ui/components/ui/input";
 
 const meta = {
   title: "ui/Field",

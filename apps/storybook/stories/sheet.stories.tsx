@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   Sheet,
   SheetContent,
@@ -8,7 +8,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@workspace/ui/components/sheet";
+} from "@workspace/ui/components/ui/sheet";
 
 const meta = {
   title: "ui/Sheet",

@@ -3,7 +3,7 @@ import {
   NativeSelect,
   NativeSelectOptGroup,
   NativeSelectOption,
-} from "@workspace/ui/components/native-select";
+} from "@workspace/ui/components/ui/native-select";
 
 const meta = {
   title: "ui/NativeSelect",

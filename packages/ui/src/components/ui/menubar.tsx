@@ -19,7 +19,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@workspace/ui/components/dropdown-menu"
+} from "@workspace/ui/components/ui/dropdown-menu"
 import { RiCheckLine } from "@remixicon/react"
 
 function Menubar({ className, ...props }: MenubarPrimitive.Props) {

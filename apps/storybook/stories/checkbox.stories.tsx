@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Checkbox } from "@workspace/ui/components/checkbox";
-import { Label } from "@workspace/ui/components/label";
+import { Checkbox } from "@workspace/ui/components/ui/checkbox";
+import { Label } from "@workspace/ui/components/ui/label";
 
 const meta = {
   title: "ui/Checkbox",

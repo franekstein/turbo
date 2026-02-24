@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import {
   ToggleGroup,
   ToggleGroupItem,
-} from "@workspace/ui/components/toggle-group";
+} from "@workspace/ui/components/ui/toggle-group";
 
 const meta = {
   title: "ui/ToggleGroup",

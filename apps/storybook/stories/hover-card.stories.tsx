@@ -3,7 +3,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@workspace/ui/components/hover-card";
+} from "@workspace/ui/components/ui/hover-card";
 
 const meta = {
   title: "ui/HoverCard",

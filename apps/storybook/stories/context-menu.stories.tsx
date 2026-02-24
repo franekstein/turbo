@@ -9,7 +9,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@workspace/ui/components/context-menu";
+} from "@workspace/ui/components/ui/context-menu";
 
 const meta = {
   title: "ui/ContextMenu",

@@ -4,7 +4,7 @@ import * as React from "react"
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog"
 
 import { cn } from "@workspace/ui/lib/utils"
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@workspace/ui/components/ui/button"
 import { RiCloseLine } from "@remixicon/react"
 
 function Dialog({ ...props }: DialogPrimitive.Root.Props) {

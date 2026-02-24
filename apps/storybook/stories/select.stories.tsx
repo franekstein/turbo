@@ -8,7 +8,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from "@workspace/ui/components/select";
+} from "@workspace/ui/components/ui/select";
 
 const meta: Meta<typeof Select> = {
   title: "ui/Select",

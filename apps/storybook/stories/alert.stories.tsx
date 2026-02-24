@@ -5,8 +5,8 @@ import {
   AlertAction,
   AlertDescription,
   AlertTitle,
-} from "@workspace/ui/components/alert";
-import { Button } from "@workspace/ui/components/button";
+} from "@workspace/ui/components/ui/alert";
+import { Button } from "@workspace/ui/components/ui/button";
 
 const meta = {
   title: "ui/Alert",

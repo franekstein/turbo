@@ -6,7 +6,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@workspace/ui/components/navigation-menu";
+} from "@workspace/ui/components/ui/navigation-menu";
 
 const meta = {
   title: "ui/NavigationMenu",

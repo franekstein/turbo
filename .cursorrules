@@ -33,7 +33,7 @@ You are working inside a Turborepo monorepo with pnpm workspaces. The stack is:
 
 ## Architecture Rules
 
-- Shared components live in `packages/ui/src/components/`. Apps import them as `@workspace/ui/components/<name>`.
+- Shared components live in `packages/ui/src/components/`. Apps import them as `@workspace/ui/components/ui/<name>`.
 - Shared hooks live in `packages/ui/src/hooks/`. Import as `@workspace/ui/hooks/<name>`.
 - Shared utilities live in `packages/ui/src/lib/`. Import as `@workspace/ui/lib/<name>`.
 - App-specific components live in `apps/<app>/components/`. Use the `@/` path alias.

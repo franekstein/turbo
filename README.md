@@ -95,7 +95,7 @@ This pulls the latest versions of all shadcn/ui components into `packages/ui`.
 To use components in an app:
 
 ```tsx
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 ```
 
 Styles are exported from the UI package and should be imported in consuming apps:

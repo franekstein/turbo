@@ -1,6 +1,6 @@
 import { RiInboxArchiveLine } from "@remixicon/react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   Empty,
   EmptyContent,
@@ -8,7 +8,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@workspace/ui/components/empty";
+} from "@workspace/ui/components/ui/empty";
 
 const meta = {
   title: "ui/Empty",

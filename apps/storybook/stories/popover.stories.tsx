@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   Popover,
   PopoverContent,
@@ -7,7 +7,7 @@ import {
   PopoverHeader,
   PopoverTitle,
   PopoverTrigger,
-} from "@workspace/ui/components/popover";
+} from "@workspace/ui/components/ui/popover";
 
 const meta = {
   title: "ui/Popover",

@@ -9,7 +9,7 @@ import {
 } from "react-day-picker"
 
 import { cn } from "@workspace/ui/lib/utils"
-import { Button, buttonVariants } from "@workspace/ui/components/button"
+import { Button, buttonVariants } from "@workspace/ui/components/ui/button"
 import { RiArrowLeftSLine, RiArrowRightSLine, RiArrowDownSLine } from "@remixicon/react"
 
 function Calendar({

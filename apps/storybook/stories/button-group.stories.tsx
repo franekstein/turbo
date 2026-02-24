@@ -1,11 +1,11 @@
 import { RiArrowLeftLine, RiArrowRightLine } from "@remixicon/react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   ButtonGroup,
   ButtonGroupSeparator,
   ButtonGroupText,
-} from "@workspace/ui/components/button-group";
+} from "@workspace/ui/components/ui/button-group";
 
 const meta = {
   title: "ui/ButtonGroup",

@@ -1,11 +1,11 @@
 import { RiArrowDownSLine } from "@remixicon/react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@workspace/ui/components/collapsible";
+} from "@workspace/ui/components/ui/collapsible";
 
 const meta = {
   title: "ui/Collapsible",

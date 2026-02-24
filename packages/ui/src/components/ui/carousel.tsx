@@ -6,7 +6,7 @@ import useEmblaCarousel, {
 } from "embla-carousel-react"
 
 import { cn } from "@workspace/ui/lib/utils"
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@workspace/ui/components/ui/button"
 import { RiArrowLeftSLine, RiArrowRightSLine } from "@remixicon/react"
 
 type CarouselApi = UseEmblaCarouselType[1]

@@ -1,6 +1,6 @@
 import { RiFolder2Line } from "@remixicon/react";
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@workspace/ui/components/ui/button";
 import {
   Item,
   ItemActions,
@@ -8,7 +8,7 @@ import {
   ItemDescription,
   ItemMedia,
   ItemTitle,
-} from "@workspace/ui/components/item";
+} from "@workspace/ui/components/ui/item";
 
 const meta = {
   title: "ui/Item",

@@ -6,7 +6,7 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from "@workspace/ui/components/chart";
+} from "@workspace/ui/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 const chartData = [

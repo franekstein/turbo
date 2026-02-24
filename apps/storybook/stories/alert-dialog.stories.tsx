@@ -11,8 +11,8 @@ import {
   AlertDialogMedia,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@workspace/ui/components/alert-dialog";
-import { Button } from "@workspace/ui/components/button";
+} from "@workspace/ui/components/ui/alert-dialog";
+import { Button } from "@workspace/ui/components/ui/button";
 
 const meta = {
   title: "ui/AlertDialog",

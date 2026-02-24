@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@workspace/ui/components/carousel";
+} from "@workspace/ui/components/ui/carousel";
 
 const meta = {
   title: "ui/Carousel",

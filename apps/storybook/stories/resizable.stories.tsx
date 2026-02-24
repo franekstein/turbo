@@ -3,7 +3,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@workspace/ui/components/resizable";
+} from "@workspace/ui/components/ui/resizable";
 
 const meta = {
   title: "ui/ResizablePanelGroup",

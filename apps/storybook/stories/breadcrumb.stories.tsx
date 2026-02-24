@@ -6,7 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@workspace/ui/components/breadcrumb";
+} from "@workspace/ui/components/ui/breadcrumb";
 
 const meta = {
   title: "ui/Breadcrumb",

@@ -7,7 +7,7 @@ import {
   AvatarGroup,
   AvatarGroupCount,
   AvatarImage,
-} from "@workspace/ui/components/avatar";
+} from "@workspace/ui/components/ui/avatar";
 
 const meta = {
   title: "ui/Avatar",

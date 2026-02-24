@@ -4,7 +4,7 @@ import {
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@workspace/ui/components/input-otp";
+} from "@workspace/ui/components/ui/input-otp";
 
 const meta = {
   title: "ui/InputOTP",
