@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
+    "@remixicon/react": "^4.9.0",
     "@workspace/ui": "workspace:*",
     "date-fns": "^4.1.0",
     "input-otp": "^1.4.2",

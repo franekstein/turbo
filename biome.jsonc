@@ -30,6 +30,21 @@
       }
     }
   },
+  "overrides": [
+    {
+      "includes": ["apps/storybook/stories/**/*.{js,jsx,ts,tsx}"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "useImageSize": "off"
+          },
+          "performance": {
+            "noImgElement": "off"
+          }
+        }
+      }
+    }
+  ],
   "css": {
     "parser": {
       "tailwindDirectives": true
